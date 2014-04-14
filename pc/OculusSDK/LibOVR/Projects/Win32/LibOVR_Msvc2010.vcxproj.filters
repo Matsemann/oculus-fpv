@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\OVR_SensorFusion.cpp" />
+    <ClCompile Include="..\..\Src\OVR_ThreadCommandQueue.cpp" />
+    <ClCompile Include="..\..\Src\OVR_Win32_DeviceManager.cpp" />
+    <ClCompile Include="..\..\Src\OVR_Win32_HMDDevice.cpp" />
+    <ClCompile Include="..\..\Src\Kernel\OVR_Alg.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_Allocator.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_Atomic.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_File.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_FileFILE.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_Log.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_Math.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_RefCount.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_Std.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_String.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_String_PathUtil.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_SysFile.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_System.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_ThreadsWinAPI.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_Timer.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Kernel\OVR_UTF8Util.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\OVR_DeviceImpl.cpp" />
+    <ClCompile Include="..\..\Src\OVR_DeviceHandle.cpp" />
+    <ClCompile Include="..\..\Src\OVR_Win32_DeviceStatus.cpp" />
+    <ClCompile Include="..\..\Src\Kernel\OVR_String_FormatUtil.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Util\Util_Render_Stereo.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\Util\Util_LatencyTest.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\OVR_Win32_HIDDevice.cpp" />
+    <ClCompile Include="..\..\Src\OVR_LatencyTestImpl.cpp" />
+    <ClCompile Include="..\..\Src\OVR_SensorImpl.cpp" />
+    <ClCompile Include="..\..\Src\OVR_Win32_SensorDevice.cpp" />
+    <ClCompile Include="..\..\Src\OVR_SensorFilter.cpp" />
+    <ClCompile Include="..\..\Src\OVR_JSON.cpp" />
+    <ClCompile Include="..\..\Src\OVR_Profile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Src\OVR_DeviceImpl.h" />
+    <ClInclude Include="..\..\Src\OVR_SensorFusion.h" />
+    <ClInclude Include="..\..\Src\OVR_ThreadCommandQueue.h" />
+    <ClInclude Include="..\..\Src\OVR_Win32_DeviceManager.h" />
+    <ClInclude Include="..\..\Src\OVR_Win32_HMDDevice.h" />
+    <ClInclude Include="..\..\Src\Kernel\OVR_Alg.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Allocator.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Array.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Atomic.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_ContainerAllocator.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Math.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_File.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Hash.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_KeyCodes.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_List.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Log.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_RefCount.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_System.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Std.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_String.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_StringHash.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_SysFile.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Threads.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Timer.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_Types.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Kernel\OVR_UTF8Util.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\OVR.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\OVR_Device.h" />
+    <ClInclude Include="..\..\Src\OVR_DeviceConstants.h" />
+    <ClInclude Include="..\..\Src\OVR_DeviceMessages.h" />
+    <ClInclude Include="..\..\Src\OVR_DeviceHandle.h" />
+    <ClInclude Include="..\..\Src\OVR_Win32_DeviceStatus.h" />
+    <ClInclude Include="..\..\Src\Kernel\OVR_Color.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Util\Util_Render_Stereo.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\Util\Util_LatencyTest.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\OVR_HIDDevice.h" />
+    <ClInclude Include="..\..\Src\OVR_Win32_HIDDevice.h" />
+    <ClInclude Include="..\..\Src\OVR_HIDDeviceImpl.h" />
+    <ClInclude Include="..\..\Src\OVR_LatencyTestImpl.h" />
+    <ClInclude Include="..\..\Src\OVR_SensorImpl.h" />
+    <ClInclude Include="..\..\Src\OVR_HIDDeviceBase.h" />
+    <ClInclude Include="..\..\Src\OVR_Win32_SensorDevice.h" />
+    <ClInclude Include="..\..\Src\OVR_SensorFilter.h" />
+    <ClInclude Include="..\..\Src\OVR_JSON.h" />
+    <ClInclude Include="..\..\Src\OVR_Profile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{ccc06f04-d013-483f-8471-bd25332e38bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{53c19267-8aec-48ad-a1a3-7ffd9090f075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{6d4ac63a-dea8-4fdb-ad20-6768c33376d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
