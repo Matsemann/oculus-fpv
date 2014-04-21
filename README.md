@@ -1,12 +1,14 @@
 ﻿Oculus FPV
 ===========
 
-English info
-------------
+###English info
+
 Code for TPG4850 eksperter i team vr-landsbyen. Video of it running is available [here](https://www.youtube.com/watch?v=33uHzDvxB00).
 This is a project where we use an Oculus Rift to display stereo video from a quadcopter, and rotate the cameras on the quadcopter based on head rotation.
 
-###Products:
+####[Abstract (pdf)](abstract.pdf), two pages in English about the project.
+
+#####Products used:
 
 **Type** | **Component** | **Nr**
 :---------|:---------------|:---------
@@ -18,14 +20,17 @@ VR-HMD | Oculus Rift Developer Kit | 1
 Servo | Servo Sub-Micro ROB-09065 | 2
 USB to Serial | FT232RL Breakout BOB-00718 | 1
 Serial link | Long Range 433MHz UM96 WRL-00155 | 2
-PC | Arbitrary, must run Windows | 1
+PC | Arbitrary, must run Windows because of converters | 1
 
 
 Info
 ----
+
+####[Rapporten (pdf)](prosjektrapport.pdf), detaljert beskrivelse av prosjektet.
+
 I mikro mappen ligger koden som er skrevet for mikrokontrolleren på kretskortet. Tar seg av å styre servoene basert på input den får fra en mottaker.
 
-I pc mappen ligger koden for programmet som kjærer på pcen. Leser inn en videostræm fra to usb enheter og viser dem på Oculus Rift, og leser hodebevegelser fra oculus rift og sender opp til flyet. I mappen ligger også graf-filene som setter opp direct show grafen, oculus bibliotekene som er brukt samt bibliotekene for breakout-kortet.
+I pc mappen ligger koden for programmet som kjører på pcen. Leser inn en videostrøm fra to usb enheter og viser dem på Oculus Rift, og leser hodebevegelser fra oculus rift og sender opp til flyet. I mappen ligger også graf-filene som setter opp direct show grafen, oculus bibliotekene som er brukt samt bibliotekene for breakout-kortet.
 
 Bygging
 -------
