@@ -26,7 +26,7 @@ PC | Arbitrary, must run Windows because of converters | 1
 Info
 ----
 
-####[Rapporten (pdf)](prosjektrapport.pdf), detaljert beskrivelse av prosjektet.
+####[Rapporten (pdf)](https://github.com/Matsemann/oculus-fpv/raw/master/prosjektrapport.pdf), detaljert beskrivelse av prosjektet.
 
 I mikro mappen ligger koden som er skrevet for mikrokontrolleren på kretskortet. Tar seg av å styre servoene basert på input den får fra en mottaker.
 
