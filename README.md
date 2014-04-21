@@ -1,4 +1,4 @@
-Oculus FPV
+ï»¿Oculus FPV
 ===========
 
 English info
@@ -23,13 +23,13 @@ PC | Arbitrary, must run Windows | 1
 
 Info
 ----
-I mikro mappen ligger koden som er skrevet for mikrokontrolleren på kretskortet. Tar seg av å styre servoene basert på input den får fra en mottaker.
+I mikro mappen ligger koden som er skrevet for mikrokontrolleren pÃ¥ kretskortet. Tar seg av Ã¥ styre servoene basert pÃ¥ input den fÃ¥r fra en mottaker.
 
-I pc mappen ligger koden for programmet som kjører på pcen. Leser inn en videostrøm fra to usb enheter og viser dem på oculus rift, og leser hodebevegelser fra oculus rift og sender opp til flyet. I mappen ligger også graf-filene som setter opp direct show grafen, oculus bibliotekene som er brukt samt bibliotekene for breakout-kortet.
+I pc mappen ligger koden for programmet som kjÃ¦rer pÃ¥ pcen. Leser inn en videostrÃ¦m fra to usb enheter og viser dem pÃ¥ Oculus Rift, og leser hodebevegelser fra oculus rift og sender opp til flyet. I mappen ligger ogsÃ¥ graf-filene som setter opp direct show grafen, oculus bibliotekene som er brukt samt bibliotekene for breakout-kortet.
 
 Bygging
 -------
-For å bygge programmet som kjører på PCen kreves det at man har Windows SDK installert. Prosjektet bør være konfigurert slik som OculusWorldDemoapp som følger med når man laster ned Oculus SDK. Altså at CommonSrc er inkludert og at libraries er lenket til i kompileren. Så må man legge til include filer og libraries for directshow, og for breakout-kortet.
+For Ã¥ bygge programmet som kjÃ¸rer pÃ¥ PCen kreves det at man har Windows SDK installert. Prosjektet bÃ¸r vÃ¦re konfigurert slik som OculusWorldDemoapp som fÃ¸lger med nÃ¥r man laster ned Oculus SDK. AltsÃ¥ at CommonSrc er inkludert og at libraries er lenket til i kompileren. SÃ¥ mÃ¥ man legge til include filer og libraries for directshow, og for breakout-kortet.
 
 Kildene til dette finnes i rapporten.
 
