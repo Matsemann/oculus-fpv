@@ -6,6 +6,20 @@ English info
 Code for TPG4850 eksperter i team vr-landsbyen. Video of it running is available [here](https://www.youtube.com/watch?v=33uHzDvxB00).
 This is a project where we use an Oculus Rift to display stereo video from a quadcopter, and rotate the cameras on the quadcopter based on head rotation.
 
+###Products:
+
+**Type** | **Component** | **Nr**
+:---------|:---------------|:---------
+Quadcopter | DJI Phantom 2 | 1
+Camera | CMOS Camera Module - 728x488 SEN-11745 | 2
+Videolink | 5.8GHz FPV AV 600mW RC832 | 2
+Videoconverter | Hauppauge USB-LIVE 2 | 2
+VR-HMD | Oculus Rift Developer Kit | 1
+Servo | Servo Sub-Micro ROB-09065 | 2
+USB to Serial | FT232RL Breakout BOB-00718 | 1
+Serial link | Long Range 433MHz UM96 WRL-00155 | 2
+PC | Arbitrary, must run Windows | 1
+
 
 Info
 ----
