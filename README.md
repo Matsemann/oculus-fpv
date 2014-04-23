@@ -5,7 +5,7 @@
 
 ####[Abstract (pdf)](https://github.com/Matsemann/oculus-fpv/raw/master/abstract.pdf), two pages in English about the project.
 
-####[Video](https://www.youtube.com/watch?v=33uHzDvxB00), the product in action
+####[Video](https://www.youtube.com/watch?v=ANSjwWomIJ8), the product in action
 
 This is a project where we use an Oculus Rift to display stereo video from a quadcopter, and rotate the cameras on the quadcopter based on head rotation.
 
